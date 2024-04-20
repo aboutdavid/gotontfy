@@ -8,6 +8,6 @@ module.exports = {
         base: 'http://localhost:8081/' // Where is it being hosted at?
     },
     server: {
-        port: 3000
+        port: 3000 // What port the server will listen on, what else?
     }
 }

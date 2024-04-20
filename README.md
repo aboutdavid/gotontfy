@@ -4,9 +4,11 @@ Gotify to ntfy.sh translation proxy. I made this for proxmox and it works with p
 
 ## Setting it up
 
-Copy `config.example.js` and modify it to your needs. Instructions are in that file.
+Copy `config.example.js` to `config.js` and modify it to your needs. Instructions are in that file.
 
 ```
 yarn install
 yarn start
 ```
+
+Now, you can replace gotify with this proxy which will translate your requests to ntfy.
